@@ -2,7 +2,7 @@
 // const {assert} = require('chai');
 //
 // require('isomorphic-fetch');
-// const ecc = require('picojs-ecc');
+// const ecc = require('picojs-ec');
 // const picoio = new (require('../lib/picoio').default)();
 //
 // const network = picoio.getEndorsedNetwork();

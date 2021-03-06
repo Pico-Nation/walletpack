@@ -1,4 +1,4 @@
-import ecc from 'picojs-ecc';
+import ecc from 'picojs-ec';
 const {PrivateKey} = ecc;
 
 import PluginRepository from '../plugins/PluginRepository';

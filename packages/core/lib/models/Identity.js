@@ -119,7 +119,7 @@ export class LocationInformation {
 /*                 Identity                 */
 /********************************************/
 
-let {PrivateKey} = require('picojs-ecc');
+let {PrivateKey} = require('picojs-ec');
 
 export default class Identity {
 

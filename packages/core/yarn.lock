@@ -160,9 +160,9 @@ emoji-regex@^7.0.1:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-7.0.3.tgz#933a04052860c85e83c122479c4748a8e4c72156"
   integrity sha512-CwBLREIQ7LvYFB0WyRvwhq5N5qPhc6PMjD6bYggFlI5YyDgl+0vxq5VHbMOFqLg7hfWzmu8T5Z1QofhmTIhItA==
 
-picojs-ecc@^4.0.4:
+picojs-ec@^4.0.4:
   version "4.0.4"
-  resolved "https://registry.yarnpkg.com/picojs-ecc/-/picojs-ecc-4.0.4.tgz#431450f30a6f73088ff5d7ba1ebdfe967a5ca4ab"
+  resolved "https://registry.yarnpkg.com/picojs-ec/-/picojs-ec-4.0.4.tgz#431450f30a6f73088ff5d7ba1ebdfe967a5ca4ab"
   integrity sha512-9wAYefts4TidHOu+eN9nAisZdWpUzlUimZrB63oP7+/s4xRNJEn2Vvep2ICRODpxpidbshM1L7WaSYW9oiV5gA==
   dependencies:
     bigi "^1.4.2"

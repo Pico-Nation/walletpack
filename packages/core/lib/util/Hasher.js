@@ -1,6 +1,6 @@
 import Seeder from "../services/secure/Seeder";
 
-const ecc = require('picojs-ecc');
+const ecc = require('picojs-ec');
 const scrypt = require('scrypt-async');
 
 export default class Hasher {

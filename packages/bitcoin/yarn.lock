@@ -22,7 +22,7 @@
     aes-oop "^1.0.4"
     bignumber.js "^9.0.0"
     bip39 "^2.6.0"
-    picojs-ecc "^4.0.4"
+    picojs-ec "^4.0.4"
     qrcode "^1.4.1"
     scrypt-async "^2.0.1"
 
@@ -300,9 +300,9 @@ emoji-regex@^7.0.1:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-7.0.3.tgz#933a04052860c85e83c122479c4748a8e4c72156"
   integrity sha512-CwBLREIQ7LvYFB0WyRvwhq5N5qPhc6PMjD6bYggFlI5YyDgl+0vxq5VHbMOFqLg7hfWzmu8T5Z1QofhmTIhItA==
 
-picojs-ecc@^4.0.4:
+picojs-ec@^4.0.4:
   version "4.0.7"
-  resolved "https://registry.yarnpkg.com/picojs-ecc/-/picojs-ecc-4.0.7.tgz#f5246da3b84839fcc237204768ef6e5ea56cc814"
+  resolved "https://registry.yarnpkg.com/picojs-ec/-/picojs-ec-4.0.7.tgz#f5246da3b84839fcc237204768ef6e5ea56cc814"
   integrity sha512-uuqhqnrDy9XTpKfkhiZqRDUTCCI9oWBalVK5IosL7kpYwA9I3lm68INYFLyWsHpF2xwHqPql8MrMYJ3zfOn5Qg==
   dependencies:
     "@babel/runtime" "7.6.0"

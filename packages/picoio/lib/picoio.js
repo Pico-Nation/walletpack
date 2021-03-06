@@ -1,23 +1,23 @@
-import Plugin from                  '@walletpack/core/plugins/Plugin';
-import * as PluginTypes from        '@walletpack/core/plugins/PluginTypes';
-import {Blockchains} from           '@walletpack/core/models/Blockchains'
-import Network from                 '@walletpack/core/models/Network'
-import Account from                 '@walletpack/core/models/Account'
-import KeyPairService from          '@walletpack/core/services/secure/KeyPairService'
-import ObjectHelpers from           '@walletpack/core/util/ObjectHelpers'
-import * as Actions from            '@walletpack/core/models/api/ApiActions';
-import * as StoreActions from       '@walletpack/core/store/constants'
-import Token from                   "@walletpack/core/models/Token";
-import AccountAction from           "@walletpack/core/models/AccountAction";
-import AccountService from          "@walletpack/core/services/blockchain/AccountService";
-import HistoricAction from          "@walletpack/core/models/histories/HistoricAction";
-import StoreService from            "@walletpack/core/services/utility/StoreService";
-import EventService from            "@walletpack/core/services/utility/EventService";
-import SigningService from          "@walletpack/core/services/secure/SigningService";
-import {POST} from                  "@walletpack/core/services/apis/BackendApiService";
-import ecc from 'picojs-ecc';
-import { Api, JsonRpc } from 'picojs';
-import * as numeric from "picojs/dist/picojs-numeric";
+import Plugin from                  'walletpack-pico-core/plugins/Plugin';
+import * as PluginTypes from        'walletpack-pico-core/plugins/PluginTypes';
+import {Blockchains} from         'walletpack-pico-core/models/Blockchains'
+import Network from                'walletpack-pico-core/models/Network'
+import Account from               'walletpack-pico-core/models/Account'
+import KeyPairService from         'walletpack-pico-core/services/secure/KeyPairService'
+import ObjectHelpers from          'walletpack-pico-core/util/ObjectHelpers'
+import * as Actions from            'walletpack-pico-core/models/api/ApiActions';
+import * as StoreActions from      'walletpack-pico-core/store/constants'
+import Token from                  "walletpack-pico-core/models/Token";
+import AccountAction from           "walletpack-pico-core/models/AccountAction";
+import AccountService from          "walletpack-pico-core/services/blockchain/AccountService";
+import HistoricAction from         "walletpack-pico-core/models/histories/HistoricAction";
+import StoreService from            "walletpack-pico-core/services/utility/StoreService";
+import EventService from            "walletpack-pico-core/services/utility/EventService";
+import SigningService from          "walletpack-pico-core/services/secure/SigningService";
+import {POST} from                  "walletpack-pico-core/services/apis/BackendApiService";
+import ecc from 'picojs-ec';
+import { Api, JsonRpc } from 'picojs-base';
+import * as numeric from "picojs-base/dist/picojs-numeric";
 
 import LightAPI from './api';
 
